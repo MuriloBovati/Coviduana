@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.home > div {
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+}

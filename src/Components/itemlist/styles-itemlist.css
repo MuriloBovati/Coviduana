@@ -1,0 +1,48 @@
+.item{
+
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px auto;
+    width: 100%;
+    background-color: white;
+}
+
+
+.infoItem{
+    width: 80%;
+    display: flex;
+}
+
+.infoItem > p{
+    width: 100px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.buttonItem{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconsItem{
+    font-size: 2em;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.iconsItem:active{
+    box-shadow: none;
+}
+
+
+
+.trash {
+    color:rgb(182, 5, 5) ;
+}

@@ -1,0 +1,31 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "descricao": "Murilo",
+      "preco": "10",
+      "quantidade": "5"
+    },
+    {
+      "descricao": "Test",
+      "preco": "15",
+      "quantidade": "5",
+      "id": 2
+    },
+    {
+      "descricao": "test",
+      "preco": "15",
+      "quantidade": "5",
+      "id": 3
+    }
+  ],
+  "compras": [
+    {
+      "id": 1,
+      "pdata": "12/08/2022",
+      "pquantidade": "1",
+      "ppreco": "1200",
+      "pcpf": "458.456.45-3"
+    }
+  ]
+}
